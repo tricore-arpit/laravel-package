@@ -1,0 +1,25 @@
+{
+    "name": "tricore-arpit/laravel-package",
+    "authors": [
+        {
+            "name": "Arpit",
+            "email": "arpitchristy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EcommElite\\ReportsManager\\": "src"
+        }
+    },
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/tricore-arpit/laravel-package", "no-api": true }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "tricore-arpit/laravel-package": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "orchestra/testbench": "^3.4"
+    }
+}
